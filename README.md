@@ -1,51 +1,48 @@
-# Mini Paint - Java
+# Mini Paint - Java Drawing Application
 
-## Sobre o projeto
-Aplicação desenvolvida para a disciplina de Programação Orientada a Objetos, com o objetivo de implementar conceitos de interface gráfica utilizando Java Swing.
+## About the Project
+This project is a desktop drawing application developed using Java and Swing, designed to simulate a simplified version of a paint tool.
 
-O sistema simula um software de desenho (estilo Paint), permitindo que o usuário crie formas geométricas bidimensionais ou desenhe livremente utilizando o mouse.
-
----
-
-## Funcionalidades
-
-- Desenho livre com o mouse
-- Desenho de formas geométricas:
-  - Quadrado
-  - Retângulo
-  - Círculo
-  - Elipse
-  - Triângulo
-- Seleção de cores personalizada
-- Salvamento do desenho em formato `.bmp`
-- Carregamento de imagens `.bmp`
-- Limpar tela de desenho
+It allows users to draw freely or create predefined geometric shapes, as well as save and load images. The application focuses on user interaction, event handling, and graphical rendering.
 
 ---
 
-## Conceitos aplicados
+## Features
 
-- Programação Orientada a Objetos (POO)
-- Interface gráfica com Java Swing
-- Manipulação de eventos (MouseListener e ActionListener)
-- Manipulação de imagens com `BufferedImage`
-- Uso de diálogos gráficos (`JFileChooser`, `JColorChooser`, `JOptionPane`)
-
----
-
-## Tecnologias utilizadas
-
-- Java
-- Java Swing (GUI)
-- AWT (Graphics2D)
+- Freehand drawing using mouse input  
+- Geometric shapes:
+  - Square
+  - Rectangle
+  - Circle
+  - Ellipse
+  - Triangle  
+- Color picker for custom drawing  
+- Save drawings as `.bmp` images  
+- Load existing `.bmp` images  
+- Clear canvas functionality  
 
 ---
 
-## Como executar o projeto
-1- Abra o projeto em uma IDE (IntelliJ, Eclipse ou VS Code)
-2- Execute a classe principal:
-3- MiniPaintApp.java
+## Technical Highlights
 
-1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/nome-do-repo.git
+- Object-Oriented Programming (OOP) design  
+- GUI development using Java Swing  
+- Event-driven programming (Mouse & Action Listeners)  
+- Graphics rendering with `Graphics2D`  
+- Image manipulation using `BufferedImage`  
+
+---
+
+## Tech Stack
+
+- Java  
+- Swing (GUI)  
+- AWT  
+
+---
+## How to Run
+
+1- Clone the repository:
+git clone https://github.com/your-username/your-repo.git
+2- Open the project in your preferred IDE (IntelliJ, Eclipse, VS Code)
+3- Run: MiniPaintApp.java
